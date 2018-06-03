@@ -1,0 +1,90 @@
+body {
+	background-color: rgb(39,39,39);
+	color: rgb(94,94,94);
+}
+
+.navbar div div button {
+	padding-top: 6px;
+	color: rgb(94,94,94);
+}
+
+.navbar div div a { 			
+	font-weight: bold;
+	color: rgb(94,94,94);
+}
+
+#myCollapsingList li a {
+	color: rgb(94,94,94);
+}
+
+.jumbotron {
+	margin-top: 60%;
+	text-align: center;
+}
+
+.container .jumbotron h2 {
+	border-bottom: solid 2px black;
+} 
+
+#conimg {
+	background-image: url(assets/images/monkees.jpg);
+	background-size: contain;
+}
+
+#abPit {			
+	background-image: url(assets/images/cover2.jpg);
+}
+
+footer, footer h3 {
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+footer p {
+	margin-top: 1%;
+}
+
+.navbar a {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+}
+
+.row p {
+	text-align: justify;
+}
+
+container hr {
+  	background-color: blue;
+}
+
+.container.pd {
+	padding-top: 5%;
+}
+
+.carousel-inner div img {
+	margin: 0 auto;
+}
+
+.hh3 h3 {
+	font-size: 2.5em;
+	font-weight: bold;			
+}
+
+.hh3 {
+	margin-bottom: 8%;
+}
+
+.container .row div {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+video, audio {
+	width: 100%;
+}
+
