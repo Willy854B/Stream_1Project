@@ -28,7 +28,8 @@ function checkScheEvents(){
 
             messageBox.innerHTML = "<h3>Sorry, this date has already been booked. Please enter a defferent date</h3>";  
 
-        }else{
+        }else{ 
+            
             insertObject.fname = fnameInput;
             insertObject.lname = lnameInput;
             insertObject.phone = phoneInput;
@@ -41,7 +42,7 @@ function checkScheEvents(){
 
             messageBox.innerHTML="<h3>You have succesfully booked this event. Thanks!</h3>";
 
-            return;   
+            break;   
         }
     }
 
