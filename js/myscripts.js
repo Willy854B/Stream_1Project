@@ -1,15 +1,16 @@
-var scheEvents = [{
-    fname : "Thomas",
-    lname : "Heinz",
-    phone : "2013303456",
-    email : "thomas323@aol.com",
-    edate :"10-20-2018",
-    etype : "wedding",
-    nhours : "3"
-    }];
 
 function checkScheEvents(){ 
-    
+
+    var scheEvents = [{
+        fname : "Thomas",
+        lname : "Heinz",
+        phone : "2013303456",
+        email : "thomas323@aol.com",
+        edate : "10-20-2018",
+        etype : "wedding",
+        nhours : "3"
+        }];
+   
     var fnameInput = document.getElementById("fname").val();
     var lnameInput = document.getElementById("lname").val();
     var phoneInput = document.getElementById("phone").val();
@@ -26,7 +27,7 @@ function checkScheEvents(){
 
         if (edateInput === scheEvents[i].edate){
 
-            messageBox.innerHTML = "<h3>Sorry, this date has already been booked. Please enter a defferent date</h3>";  
+            messageBox.innerHTML = "<h4>Sorry, this date has already been booked. Please enter a defferent date</h4>";  
 
         }else{ 
             
@@ -40,7 +41,7 @@ function checkScheEvents(){
 
             costAlert(etypeInput,nhoursInput); 
 
-            messageBox.innerHTML="<h3>You have succesfully booked this event. Thanks!</h3>";
+            messageBox.innerHTML="<h4>You have succesfully booked this event. Thanks!</h4>";
 
             break;   
         }
