@@ -1,11 +1,23 @@
 body {
 	background-color: rgb(39,39,39);
-	color: rgb(94,94,94);
+	color: white;
+}
+
+body nav.navbar div.container div.nav.navbar-header a.navbar-brand {
+	color: white;
+}
+
+body nav div ul#myCollapsingList.nav.navbar-nav.collapse.navbar-collapse.navbar-right li a {
+	color: white;
+}
+
+ul#myCollapsingList.nav.navbar-nav.navbar-collapse.navbar-right.collapse.in {
+	border-top-color: white;
 }
 
 .navbar div div button {
 	padding-top: 6px;
-	color: rgb(94,94,94);
+	color: white;
 }
 
 .navbar div div a { 			
@@ -20,14 +32,18 @@ body {
 .jumbotron {
 	margin-top: 60%;
 	text-align: center;
+	color: #333;
 }
 
 .container .jumbotron h2 {
 	border-bottom: solid 2px black;
 } 
 
+form fieldset label {
+	color: #333;
+}
+
 #conimg {
-	background-image: url(assets/images/monkees.jpg);
 	background-size: contain;
 }
 
