@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>THE MONKEES</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+		   <div class="nav navbar-header">
+		      	<a class="navbar-brand" href="#">THE MONKEES</a>
+		        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+		        <span class="glyphicon glyphicon-th-list"></span>
+		        </button>
+			</div>	 
+		   <ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse navbar-right">
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="about.html">About</a></li>
+		      <li><a href="gallery.html">Gallery</a></li>
+		      <li><a href="contact.html">Contact</a></li>
+		      <li><a href="booking.html">Booking</a></li>
+		   </ul>
+		</div>
+		<hr>
+	</nav>
+	<div class="container">
+		<div class="row">
+		   <div class="col-md-12">
+			<h3>Video</h3>
+		</div>
+		<div class="row">
+		   	<div class="col-lg-12">		
+				<video controls="controls" preload="auto" loop poster="assets/images/cover.jpg">
+					<source src="assets/video/TheMonkees.webm" type="video/webm"/>
+					<source src="assets/video/TheMonkees.ogv" type="video/ogg"/>	
+					<source src="assets/video/TheMonkees.mp4" type="video/mp4"/>
+					<track src="assets/video/sub.vtt" label="English subtitles" kind="subtitles" srclang="en" default="">
+				</video>
+			</div>	
+		</div>
+		<div class="row">
+		   <div class="col-md-12">
+				<h3>Audio</h3>
+			</div>
+		</div>
+		<div class="row">		   
+		   	<div class="col-md-12">
+			   	<audio controls= "controls">
+				 	<source src="assets/audio/Clarksville.mp3" type="audio/mpeg; codecs=mp3"/>
+				 	<source src="assets/audio/Clarksville.ogg" type="audio/ogg; codecs=vorbis"/>
+				</audio>
+				<audio controls= "controls">
+				 	<source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg; codecs=mp3"/>
+				 	<source src="assets/audio/DaydreamBeliever.ogg" type="audio/ogg; codecs=vorbis"/>
+				</audio>
+				<audio controls= "controls">
+				 	<source src="assets/audio/ImABeliever.mp3" type="audio/mpeg; codecs=mp3"/>
+				 	<source src="assets/audio/ImABeliever.ogg" type="audio/ogg; codecs=vorbis"/>
+				</audio>
+				<audio controls= "controls">
+				 	<source src="assets/audio/SteppingStone.mp3" type="audio/mpeg; codecs=mp3"/>
+				 	<source src="assets/audio/SteppingStone.ogg" type="audio/ogg; codecs=vorbis"/>
+				</audio>			
+		   </div>
+		</div>
+	</div>
+	<div class="container">
+		<footer class="col-12">
+			<h3>STAY CONNECTED</h3>
+			<a href="https://www.facebook.com/TheMonkees/"><i class="fab fa-facebook-square fa-4x"></i></a>
+			<a href="https://twitter.com/themonkees?lang=en"><i class="fab fa-twitter-square fa-4x"></i></a>
+			<a href="https://www.youtube.com/user/themonkees"><i class="fab fa-youtube-square fa-4x"></i></a>
+			<p>&copy; 2018 | THE MONKEES.com | All Rights Reserved</p>
+		</footer>
+	</div>
+</div>	
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
