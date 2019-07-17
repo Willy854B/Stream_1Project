@@ -14,15 +14,20 @@ See the project mock-ups [on Google Presentation]
 ## Features
 ### Existing Features
 - **Jumbotron**
+
 	A lightweight, flexible component for showcasing important content. I used it to display the dates that the band will be performing live.
 - **Carousel**
+
 	A slideshow component for cycling through elements. In this project, it was used to display the images of each of the band members.
 - **Media**
+
 	Implementation of different multimedia elements were incorporated so that users can find video and audio clips of the band.
 	Social media links were embedded on each page by integrating icons to visually enhance the appearance of the site.
 - **Mobile responsive design**
+
 	This website was built to automatically adjust and adapt to any device the user is operating. It has the ability to optimize the screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
 - **Forms**
+
 	Intuitive form design was used to create a booking form and a contact form for data collection. Form validation is one of the features present in both of these forms.
 
 ### Features Left to Implement
@@ -35,20 +40,25 @@ See the project mock-ups [on Google Presentation]
 	-Logout
 
 - **Database**
+
 	In this project, an array in the form of an object was used as a way to hold the data entered by the user, using a real database for this kind of task is what is normally used for most websites to function effectively.
 
 ## Tech Used
 ### Some of the tech used includes:
-- HTML
+- **HTML**
+
 	I used **Hypertext Markup Language** to structure and format the content of each page for this particular website.
 
-- CSS
+- **CSS**
+
 	I used **Cascading Style Sheets** to separate formatting and layout from content, and to give the website its unique look.
 
-- [JavaScript](https://www.javascript.com)
+- **[JavaScript](https://www.javascript.com)**
+
 	I used **JavaScript** to make the booking and contact pages of this website more dynamic and interactive, and to enable form validation.
 
-- [Bootstrap](https://getbootstrap.com/) 
+- **[Bootstrap](https://getbootstrap.com/)** 
+
    	I used **Bootstrap** to give this project a simple, responsive layout where mobile first approach is implemented throughout the site.
 
 ## Testing
@@ -61,9 +71,12 @@ The following tests have been executed to make sure this project functions as ex
 3. Audio and video were checked by clicking/dragging some of the buttons and bars present on the media player.
 
 4. Contact/Booking forms were tested as follows:
-	1. I supplied information that doesn't match the expected format or pattern that should be entered, which showed some error messages when I pressed the submit button. That confirms that the code is working properly.
-	2. I supplied information that matches the expected format or pattern that should be entered, and no error messages were shown when I pressed the submit button. This proves the code is validating the forms as it should.
-	3. Using Chrome's inspect tool, I traversed the DOM to obtain information about the array/object I created to hold the data entered in the forms. The browsers inspect tool allowed me to use the ```console.log()``` function to output the content that is being held in the array/object and see if the data was available. 
+
+	- I supplied information that doesn't match the expected format or pattern that should be entered, which showed some error messages when I pressed the submit button. That confirms that the code is working properly.
+
+	- I supplied information that matches the expected format or pattern that should be entered, and no error messages were shown when I pressed the submit button. This proves the code is validating the forms as it should.
+
+	- Using Chrome's inspect tool, I traversed the DOM to obtain information about the array/object I created to hold the data entered in the forms. The browsers inspect tool allowed me to use the ```console.log()``` function to output the content that is being held in the array/object and see if the data was available. 
 
 ## Contributing
 ### Getting the code up and running
@@ -82,4 +95,4 @@ To run the code locally on your computer, you need to:
 - Social media link images were found and embedded into this project from [Fontaweson](https://codeinstitute.net).
 
 ### Acknowledgements
-- In general, this portfolio site was put together by me using the information I've learned from the Fullstack Web Developer Program offered by Code Institute.   
+- In general, this portfolio site was put together by me using the information I've learned from the **Fullstack Web Developer Program** offered by **Code Institute**.   
