@@ -95,4 +95,4 @@ To run the code locally on your computer, you need to:
 - Social media link images were found and embedded into this project from [Fontaweson](https://codeinstitute.net).
 
 ### Acknowledgements
-- In general, this portfolio site was put together by me using the information I've learned from the **Fullstack Web Developer Program** offered by **Code Institute**.   
+- In general, this portfolio site was created by me using the information I've learned from the **Fullstack Web Developer Program** offered by **Code Institute**.   
