@@ -14,16 +14,16 @@ See the project mock-ups [on Google Presentation]
 ## Features
 ### Existing Features
 - Jumbotron
-	- A lightweight, flexible component for showcasing important content. I used it to display the dates that the band will be performing live.
+	A lightweight, flexible component for showcasing important content. I used it to display the dates that the band will be performing live.
 - Carousel
-	- A slideshow component for cycling through elements. In this project, it was used to display the images of each of the band members.
+	A slideshow component for cycling through elements. In this project, it was used to display the images of each of the band members.
 - Media
-	- Implementation of different multimedia elements were incorporated so that users can find video and audio clips of the band.
-	- Social media links were embedded on each page by integrating icons to visually enhance the appearance of the site.
+	Implementation of different multimedia elements were incorporated so that users can find video and audio clips of the band.
+	Social media links were embedded on each page by integrating icons to visually enhance the appearance of the site.
 - Mobile responsive design
-	- This website was built to automatically adjust and adapt to any device the user is operating. It has the ability to optimize the screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
+	This website was built to automatically adjust and adapt to any device the user is operating. It has the ability to optimize the screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone.
 - Forms
-	-Intuitive form design was used to create a booking form and a contact form for data collection. Form validation is one of the features present in both of these forms.
+	Intuitive form design was used to create a booking form and a contact form for data collection. Form validation is one of the features present in both of these forms.
 
 ### Features Left to Implement
 - User Based Features
