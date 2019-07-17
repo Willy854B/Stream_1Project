@@ -33,11 +33,11 @@ See the project mock-ups [on Google Presentation]
 ### Features Left to Implement
 - **User Based Features**
 
-	Registration
+	-Registration
 
-	Login
+	-Login
 
-	Logout
+	-Logout
 
 - **Database**
 
@@ -65,25 +65,25 @@ See the project mock-ups [on Google Presentation]
 
 The following tests have been executed to make sure this project functions as expected :
 
-	a. Different browsers such as Opera, internet explorer, Firefox, and Google were used to render this site on the computer. I modified the screen display to different sizes making sure that page layout, specially the menu bar, adapts to any device the user may be operating. 
+	1. Different browsers such as Opera, internet explorer, Firefox, and Google were used to render this site on the computer. I modified the screen display to different sizes making sure that page layout, specially the menu bar, adapts to any device the user may be operating. 
 
-	b. Links were tested by clicking on each one of them, and making sure each button is coded properly and takes us to the right place.
+	2. Links were tested by clicking on each one of them, and making sure each button is coded properly and takes us to the right place.
 
-	c. Audio and video were checked by clicking/dragging some of the buttons and bars present on the media player.
+	3. Audio and video were checked by clicking/dragging some of the buttons and bars present on the media player.
 
-	d. Contact/Booking forms were tested as follows:
+	4. Contact/Booking forms were tested as follows:
 
-	1. I supplied information that doesn't match the expected format or pattern that should be entered, which showed some error messages when I pressed the submit button. That confirms that the code is working properly.
+		1. I supplied information that doesn't match the expected format or pattern that should be entered, which showed some error messages when I pressed the submit button. That confirms that the code is working properly.
 
-	2. I supplied information that matches the expected format or pattern that should be entered, and no error messages were shown when I pressed the submit button. This proves the code is validating the forms as it should.
+		2. I supplied information that matches the expected format or pattern that should be entered, and no error messages were shown when I pressed the submit button. This proves the code is validating the forms as it should.
 
-	3. Using Chrome's inspect tool, I traversed the DOM to obtain information about the array/object I created to hold the data entered in the forms. The browsers inspect tool allowed me to use the `console.log()` function to output the content that is being held in the array/object and see if the data was available. 
+		3. Using Chrome's inspect tool, I traversed the DOM to obtain information about the array/object I created to hold the data entered in the forms. The browsers inspect tool allowed me to use the ```console.log()``` function to output the content that is being held in the array/object and see if the data was available. 
 
 ## Contributing
 ### Getting the code up and running
 To run the code locally on your computer, you need to :
 
-	1. clone this repository into the editor you normally use by typing `git clone https://github.com/Willy854B/Stream_1Project` command in your terminal. To cut ties with this Github repository, type `git remote rm origin` in the terminal.
+	1. clone this repository into the editor you normally use by typing ```git clone https://github.com/Willy854B/Stream_1Project``` command in your terminal. To cut ties with this Github repository, type `git remote rm origin` in the terminal.
 
 	2. To check how the website actually works, I used Sublime Text, which is the editor of my choice. In there, open any of the html pages located in the Stream_1Project folder and right click anywhere on the page. Then, click on "Open in Browser". You'll be able to see the web page in the browser's window. Not all editors work the same way, so make sure you find a command in your editor that achieves the same result. 
 
