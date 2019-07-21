@@ -33,11 +33,11 @@ See the project mock-ups [on Google Presentation]
 ### Features Left to Implement
 - **User Based Features**
 
-	-Registration
+	- Registration
 
-	-Login
+	- Login
 
-	-Logout
+	- Logout
 
 - **Database**
 
@@ -88,7 +88,7 @@ To run the code locally on your computer, you need to:
 
 ## Credits
 ### Content
-- All the information in the "About" page was taken from [Wikipedia](https://en.wikipedia.org/w/index.php?title=Special:Search&search=the+monkees&fulltext=1&profile=default&ns0=1)
+- All the information in the "About" page was taken from [Wikipedia](https://en.wikipedia.org/w/index.php?title=Special:Search&search=the+monkees&fulltext=1&profile=default&ns0=1).
 
 ### Media
 - Photos and videos were provided by [Code Institute](https://codeinstitute.net) as part of the first project of the course.
